@@ -1,0 +1,15 @@
+{
+  "name": "tokencraft",
+  "description": "Tokencraft, a Minecraft-inspired mod for Claude Code",
+  "owner": {
+    "name": "Daniel Podolsky",
+    "url": "https://github.com/DanielPodolsky"
+  },
+  "plugins": [
+    {
+      "name": "tokencraft",
+      "source": "./",
+      "description": "A Minecraft-inspired world for Claude Code: tool calls become blocks and XP, the sky follows your context, the weather follows your plan limits"
+    }
+  ]
+}

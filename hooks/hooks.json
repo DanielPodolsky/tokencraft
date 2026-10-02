@@ -1,0 +1,4 @@
+{
+  "description": "The Tokencraft hooks module",
+  "modules": ["./register.js"]
+}

@@ -1,0 +1,31 @@
+{
+  "name": "tokencraft",
+  "displayName": "Tokencraft",
+  "version": "1.0.0",
+  "description": "A Minecraft-inspired world for Claude Code: tool calls become blocks and XP, the sky follows your context, the weather follows your plan limits",
+  "author": {
+    "name": "Daniel Podolsky",
+    "url": "https://github.com/DanielPodolsky"
+  },
+  "homepage": "https://github.com/DanielPodolsky/tokencraft",
+  "repository": "https://github.com/DanielPodolsky/tokencraft",
+  "license": "MIT",
+  "keywords": [
+    "mod",
+    "hud",
+    "minecraft-inspired",
+    "pixel-art",
+    "gamification",
+    "focus-timer"
+  ],
+  "userConfig": {
+    "px_per_column": {
+      "type": "number",
+      "title": "Desktop band: pixels per column",
+      "description": "How wide one column of the Desktop band is, in pixels. Raise it if the world stops short of the band's right edge, lower it if it's cut off. /f3 shows the band's columns and pixels.",
+      "default": 8.35,
+      "min": 4,
+      "max": 20
+    }
+  }
+}
